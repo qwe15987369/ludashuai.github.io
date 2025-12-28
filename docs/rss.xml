@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>游手好闲陆大帅的博客</title><link>https://qwe15987369.github.io/ludashuai.github.io</link><description>新的开始要来咯</description><copyright>游手好闲陆大帅的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://i0.hdslb.com/bfs/article/1f6ce0f6581c25f123b3ceb97ad689ac315469584.jpg</url><title>avatar</title><link>https://qwe15987369.github.io/ludashuai.github.io</link></image><lastBuildDate>Sun, 28 Dec 2025 10:32:46 +0000</lastBuildDate><managingEditor>游手好闲陆大帅的博客</managingEditor><ttl>60</ttl><webMaster>游手好闲陆大帅的博客</webMaster><item><title>#函数指针的初级知识</title><link>https://qwe15987369.github.io/ludashuai.github.io/post/%23-han-shu-zhi-zhen-de-chu-ji-zhi-shi.html</link><description>##函数指针的每个写的东西对应的意思
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>游手好闲陆大帅的博客</title><link>https://qwe15987369.github.io/ludashuai.github.io</link><description>新的开始要来咯</description><copyright>游手好闲陆大帅的博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://i0.hdslb.com/bfs/article/1f6ce0f6581c25f123b3ceb97ad689ac315469584.jpg</url><title>avatar</title><link>https://qwe15987369.github.io/ludashuai.github.io</link></image><lastBuildDate>Sun, 28 Dec 2025 11:03:23 +0000</lastBuildDate><managingEditor>游手好闲陆大帅的博客</managingEditor><ttl>60</ttl><webMaster>游手好闲陆大帅的博客</webMaster><item><title>#函数指针的初级知识</title><link>https://qwe15987369.github.io/ludashuai.github.io/post/%23-han-shu-zhi-zhen-de-chu-ji-zhi-shi.html</link><description>##函数指针的每个写的东西对应的意思
 返回值类型 (*指针变量名)(参数类型列表);
 例子:        ```c
 int (*func_ptr)(int, int);
@@ -23,8 +23,7 @@ operation = add;
     operation = subtract;
     printf('10 - 4 = %d\n', operation(10, 4));
     return 0;
-}
-```
+}```
 用typedef的简易的方法的例子
 ```c
 #include &lt;stdio.h&gt;
