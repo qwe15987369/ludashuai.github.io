@@ -86,9 +86,9 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <div class="markdown-body" id="postBody"><h1>1首先就是链表是一个由多个节点组成的线性结构。</h1>
 <h2>所以在节点这个地方就要存下两个信息，那么这个时候就要想到用结构体了。（结构体的定义）</h2>
 <div class="highlight highlight-source-c"><pre class="notranslate"><span class="pl-c">// 首先定义链表节点的结构体</span>
-<span class="pl-k">typedef</span> <span class="pl-k">struct</span>  {
+<span class="pl-k">typedef</span> <span class="pl-k">struct</span> <span class="pl-smi">ListNode</span>{
     <span class="pl-smi">int</span> <span class="pl-c1">data</span>;           <span class="pl-c">// 存储数据</span>
-    <span class="pl-smi">ListNode</span><span class="pl-c1">*</span> <span class="pl-c1">next</span>;  <span class="pl-c">// 指向下一个节点的指针</span>
+    <span class="pl-k">struct</span> <span class="pl-smi">ListNode</span><span class="pl-c1">*</span> <span class="pl-c1">next</span>;  <span class="pl-c">// 指向下一个节点的指针，而且不能直接用ListNode,因为计算机的计算和读代码是由上到下的，也就是说还没有读到ListNode。</span>
 }<span class="pl-smi">ListNode</span>; </pre></div>
 <h2>当然结构体弄完了就是定义节点了（节点的定义）</h2>
 <div class="highlight highlight-source-c"><pre class="notranslate"><span class="pl-smi">ListNode</span><span class="pl-c1">*</span> <span class="pl-s1">firstNode</span> <span class="pl-c1">=</span> (<span class="pl-smi">ListNode</span><span class="pl-c1">*</span>)<span class="pl-en">malloc</span>(<span class="pl-k">sizeof</span>(<span class="pl-s1">ListNode</span>));</pre></div>
